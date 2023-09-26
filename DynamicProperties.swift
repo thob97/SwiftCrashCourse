@@ -6,3 +6,26 @@
 //
 
 import Foundation
+
+
+///----------DYNAMIC VAR (ähnlich zu closures, jedoch dyn var anstatt functionen)
+struct dyn{
+    //dynamic value (implicit getter)
+    var cost: Int = 1000
+    var currentProfit = 2021
+    var monney: Int {
+        return currentProfit - cost
+    }
+    
+    typealias AnyReturnType = Bool
+    //can have separated get and set part
+    var computedProperty: AnyReturnType {
+        get {
+            //gets called when accessing the property
+        }
+        set(newValue) {
+            //gets called when setting a new value to the property
+        }
+    }
+    
+}
