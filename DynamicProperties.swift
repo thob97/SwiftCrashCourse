@@ -8,8 +8,8 @@
 import Foundation
 
 
-///----------DYNAMIC VAR (ähnlich zu closures, jedoch dyn var anstatt functionen)
-struct dyn{
+///----------DYNAMIC VAR
+struct dynamicVar{
     //dynamic value (implicit getter)
     var cost: Int = 1000
     var currentProfit = 2021

@@ -54,3 +54,7 @@ struct functions{
     print(name, age, user.isStudent)
     print(user.0, user.age, user.2)
 }
+
+/*
+ parameter von functionen sind let constants / copien -> functionen welche structs benötigen, erhalten lediglich eine let copy von dem struct -> struct kann also nicht angepasst werden!, muss über anderen weg geschehen (zugriff auf locales echtes struct)
+ */

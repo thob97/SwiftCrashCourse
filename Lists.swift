@@ -16,7 +16,7 @@ struct listFunctions{
     
     
     
-    //-----Zugrif-----
+    //-----Zugriff-----
     var _ = strings[0] //first ele
     var _ = strings.first
     var _ = strings[strings.count - 1] //last ele // strings[-1] wirft einen fehler

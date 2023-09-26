@@ -25,6 +25,10 @@ func optionals(num : Int?){
     }
     print("Num is not nil")
     
+    //2.1 also possible while using a func
+    func mightBeNil() -> Int? {}
+    guard let res = mightBeNil() else {}
+    
     //3. unforced unwrapping: using (nil coalescing operator) default value
     let num2: Int = num ?? 0
     

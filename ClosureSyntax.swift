@@ -25,3 +25,5 @@ struct closureSyntax{
     //with closure arguments
     let shortestVersion = list.filter{$0 == 1}
 }
+
+
