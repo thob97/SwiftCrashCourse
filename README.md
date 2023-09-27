@@ -33,4 +33,4 @@ This repository also acts as data storage and to present the my completed work.
 
 ## Acknowledgments
 
-* [Paul Hudson](https://youtu.be/n5X_V81OYnQ?si=BFXe8qQ49MIa09QM)
+* [Paul Hudson - Swift Crashcourse Tutorial](https://youtu.be/n5X_V81OYnQ?si=BFXe8qQ49MIa09QM)
