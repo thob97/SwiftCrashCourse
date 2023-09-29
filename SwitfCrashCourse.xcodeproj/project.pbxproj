@@ -18,11 +18,11 @@
 		01315F852AC34EE5002EEBF6 /* TypeAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAnnotation.swift; sourceTree = "<group>"; };
 		01315F862AC34EF3002EEBF6 /* Conditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditions.swift; sourceTree = "<group>"; };
 		01315F872AC34F01002EEBF6 /* Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loops.swift; sourceTree = "<group>"; };
-		01315F882AC34F10002EEBF6 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		01315F892AC34F1D002EEBF6 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		01315F882AC34F10002EEBF6 /* Functions19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions19.swift; sourceTree = "<group>"; };
+		01315F892AC34F1D002EEBF6 /* Errors17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors17.swift; sourceTree = "<group>"; };
 		01315F8A2AC34F2F002EEBF6 /* ClosureSyntax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureSyntax.swift; sourceTree = "<group>"; };
 		01315F8B2AC34F46002EEBF6 /* AnonymousFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousFunctions.swift; sourceTree = "<group>"; };
-		01315F8C2AC34F57002EEBF6 /* DynamicProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicProperties.swift; sourceTree = "<group>"; };
+		01315F8C2AC34F57002EEBF6 /* ComputedProperties20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputedProperties20.swift; sourceTree = "<group>"; };
 		01315F8D2AC34F67002EEBF6 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		01315F8E2AC34F71002EEBF6 /* AccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
 		01315F8F2AC34F84002EEBF6 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
@@ -38,13 +38,13 @@
 			isa = PBXGroup;
 			children = (
 				01315F8B2AC34F46002EEBF6 /* AnonymousFunctions.swift */,
-				01315F8C2AC34F57002EEBF6 /* DynamicProperties.swift */,
+				01315F8C2AC34F57002EEBF6 /* ComputedProperties20.swift */,
 				01315F8A2AC34F2F002EEBF6 /* ClosureSyntax.swift */,
 				01315F842AC34ED0002EEBF6 /* Enums.swift */,
 				01315F902AC34F91002EEBF6 /* StructsVsClasses.swift */,
-				01315F882AC34F10002EEBF6 /* Functions.swift */,
+				01315F882AC34F10002EEBF6 /* Functions19.swift */,
 				01315F922AC34FBD002EEBF6 /* Extensions.swift */,
-				01315F892AC34F1D002EEBF6 /* Errors.swift */,
+				01315F892AC34F1D002EEBF6 /* Errors17.swift */,
 				01315F822AC34EB5002EEBF6 /* Dictionaries.swift */,
 				01315F862AC34EF3002EEBF6 /* Conditions.swift */,
 				01315F8F2AC34F84002EEBF6 /* Classes.swift */,

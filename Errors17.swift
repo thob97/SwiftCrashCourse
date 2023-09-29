@@ -6,6 +6,14 @@
 //
 
 import Foundation
+import SwiftUI
+
+//Takeaways:
+//1. custom errors can be created with enums and error protocols
+//2. there are predefined errors
+//3. try? can be optional -> will return nil on error throw instead of going to catch clausal
+//4. "let error" can be left out and be implicit
+//5. multiple catch blocks are possible
 
 ///----------ERRORS
 struct errors{
@@ -26,13 +34,11 @@ struct errors{
         }
     }
     
-    //(do) try catch clausle (needs the do)
+    //(do) try catch clausal (needs the do)
     do {
         let res = try checkSmth()
         print(res)
-    } catch CustomError.custom1 {
-        print("Error 1")
-    } catch {
-        print("All other possible errors")
+    } catch let error { //
+        
     }
 }

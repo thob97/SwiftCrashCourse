@@ -31,6 +31,11 @@ struct functions{
         return f("do smth").trimmed()
     }
     
+    //mit function als eingabe parameter + "anonym named paras" (specify what the function gets as para)
+    func functionalPrg(f: (_ userName: String) -> String) -> String {
+        //strips return of f
+        return f("JohnBob").trimmed()
+    }
     
     //named tupel rückgabe
     func retMultiValues1() -> (name: String, age: Int, isStudent: Bool){

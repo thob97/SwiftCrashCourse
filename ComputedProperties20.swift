@@ -20,11 +20,13 @@ struct dynamicVar{
     typealias AnyReturnType = Bool
     //can have separated get and set part
     var computedProperty: AnyReturnType {
-        get {
+        get (_name) { //_name default name for the current value stored in the property
             //gets called when accessing the property
+            
         }
         set(newValue) {
             //gets called when setting a new value to the property
+            //newValue default name for the current given value to the property
         }
     }
     
