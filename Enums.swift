@@ -12,7 +12,8 @@ struct enums{
     
     enum Weekday{
         case zero
-        case monday, tuesday, wendsday //can be multi cases in one line
+        case monday, tuesday, //can be multi cases in one line
+             wendsday //ano also on next line
         case drink(size: DrinkSize) //can have associated data
         case burger(String, prevIsUnnamed: Int) //can have multiple associated data + unnamed data
         
